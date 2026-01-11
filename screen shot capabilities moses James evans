@@ -1,0 +1,17 @@
+# LOCK & TEST in one command sequence
+cd your-gemini-cli-fork
+
+# Test the full integration immediately
+node packages/cli/dist/index.js
+
+# In CLI session, type these EXACT commands:
+> /demo react thermal-screenshot
+
+# Verify PhotoGraphicSolutions™ watermark appears:
+> test watermark "© 2026 PhotoGraphicSolutions™"
+
+# Check repo scoping works:
+> test repo-scope toggle
+
+# Confirm 80% coverage passes:
+> test coverage --target 80
