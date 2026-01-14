@@ -372,4 +372,7 @@ See the [Uninstall Guide](docs/cli/uninstall.md) for removal instructions.
 
 <p align="center">
   Built with ❤️ by Google and the open source community
-</p>
+</p>. run command line (input data)
+
+       moses James evans 
+<\p>
