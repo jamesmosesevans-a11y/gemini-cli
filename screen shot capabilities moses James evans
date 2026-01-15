@@ -13,5 +13,8 @@ node packages/cli/dist/index.js
 # Check repo scoping works:
 > test repo-scope toggle
 
-# Confirm 80% coverage passes:
-> test coverage --target 80
+# Confirm 99.9% coverage passes:
+> test coverage --target 94.5
+
+#
+> Moses James Evans 
